@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tinhlam.tvshop.activity.ChiTietSanPhamActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarchitietsanpham"
+        android:layout_width="match_parent"
+        android:background="#01548E"
+        app:titleTextColor="#fcfbfb"
+        app:title="Chi tiết sản phẩm"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:background="#F3fafe"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageviewchitietsanpham"
+            android:layout_margin="10dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textviewtenchitietsanpham"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Dien thoai"
+                android:textColor="#01548E"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textviewdiemtbsanpham"
+                android:text="Đánh giá "
+                android:layout_margin="5dp"
+                android:textSize="15sp"
+                android:textColor="#01548E"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RatingBar
+                android:layout_margin="5dp"
+                style = "?android:attr/ratingBarStyleSmall"
+                android:numStars = "5"
+                android:rating   = "3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_margin="5dp"
+                    android:text="Lượt xem"
+                    android:textSize="15sp"
+                    android:textColor="#39a3ea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtluotxem"
+                    android:layout_margin="5dp"
+                    android:text="Lượt xem"
+                    android:textSize="15sp"
+                    android:textColor="#39a3ea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#F3fafe"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#01548E"
+            android:layout_margin="5dp"
+            android:text="Các nhà cung cấp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ListView
+            android:id="@+id/listviewmanhinhchinh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

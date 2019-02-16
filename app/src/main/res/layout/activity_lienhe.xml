@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.example.tinhlam.tvshop.activity.LienheActivity" >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarlienhe"
+        android:background="#01548E"
+        app:titleTextColor="#fafaf6"
+        app:title="Liên hệ"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/abc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+            <!--<TextView-->
+            <!--android:textColor="#fafafa"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Thong tin ve chung toi"-->
+            <!--android:textSize="25sp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+
+
+
+
+            <LinearLayout
+        android:background="@drawable/boder"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:gravity="center"
+            android:layout_margin="30dp"
+            android:textSize="20sp"
+            android:textColorHint="#01548E"
+            android:text="Địa chỉ: Xuân Khánh, Ninh Kiều, TP Cần Thơ"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/boder"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.tinhlam.newshop.activity.LienheActivity" />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+

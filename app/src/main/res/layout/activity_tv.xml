@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tinhlam.tvshop.activity.TVActivity">
+    <android.support.v7.widget.Toolbar
+        android:background="#01548E"
+        app:titleTextColor="#fcfafa"
+        app:title="Thông số kỹ thuật"
+        android:id="@+id/toolbardt"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:gravity="left"
+        android:textColor="#782013"
+        android:text="
+        Màn hình"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+       android:gravity="left"
+        android:text="
+        Công nghệ màn hình	TFT
+"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="left"
+        android:text="
+        Độ phân giải	320 x 240 Pixels"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="left"
+        android:textColor="#782013"
+        android:text="
+        Camera sau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:gravity="left"
+        android:text="
+        Độ phân giải	2 MP
+        "
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:gravity="left"
+        android:text="
+
+        Quay phim	Có quay phim
+       "
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="left"
+        android:textColor="#782013"
+        android:text="
+        Camera trước"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:gravity="left"
+        android:text="
+        Độ phân giải	Không
+       "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="left"
+        android:text="
+
+        Videocall	Không
+        "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
